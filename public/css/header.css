@@ -1,0 +1,45 @@
+.home_header_menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+
+.home_header_menu_h1 h1{
+font-size: 17px;
+font-family: var(--tipografiaTitulos);
+}
+
+.home_header_menu_h1 p {
+    font-size: 10px;
+    font-family: var(--tipografiaParrafos);
+}
+
+.home_header_menu_nav_redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   gap: 6px;
+}
+
+.home_header_menu_nav i {
+    font-size: 20px;
+}
+
+.fa-envelope{
+    color: var(--colorNaranjaOscuro);
+}
+
+.fa-facebook {
+color: var(--colorAzulOscuro);
+}
+
+.fa-linkedin {
+    color: var(--colorAzulOscuro);
+}
+
+.fa-github {
+    color: var(--colorNegro);
+}

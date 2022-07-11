@@ -1,3 +1,26 @@
-body {
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Open+Sans&family=Roboto+Mono:wght@300&family=Varela+Round&display=swap');
+
+@import "./general.css";
+@import "./header.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./normalize.css";
+
+
+/*font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Varela Round', sans-serif;*/
+
+
+:root {
+--colorGrisClaro: #8A8A8A;
+--colorAzulOscuro: #022AAF;
+--colorNaranjaOscuro : #D68002;
+--colorNegro : #000;
+--tipografiaTitulos : 'Open Sans', sans-serif;
+--tipografiaParrafos : 'Edu NSW ACT Foundation', cursive;
+--tipografiaGeneral : 'Roboto Mono', monospace;
+--tipografiaAbout : 'Varela Round', sans-serif;
 }
+

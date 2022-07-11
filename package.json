@@ -1,0 +1,24 @@
+{
+  "name": "portafolios",
+  "version": "1.0.0",
+  "description": "Mi Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabbadini10/Portfolio.git"
+  },
+  "author": "Matias Sabbadini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sabbadini10/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Sabbadini10/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
